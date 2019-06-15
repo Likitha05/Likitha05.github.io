@@ -1,0 +1,95 @@
+.img-thumbnail{
+margin-bottom: 15px;
+}
+
+.card{
+padding-right : -5px;
+margin-bottom: 20px;
+}
+
+.customer-review{
+font-size:14px;
+}
+
+.equal-width{
+padding: 10px;
+}
+
+.my_foot{
+margin: 40px 0 0 0
+}
+
+.card{
+transition:box-shadow 0.2s;
+cursor:pointer;
+}
+
+.card:hover{
+box-shadow: 0px 0px 10px 2px #d3d3d3;
+}
+
+.container1 .col {
+transition:box-shadow 0.2s;
+cursor:pointer;
+}
+.container1 .col:hover{
+box-shadow: 0px 0px 10px 2px #d3d3d3;
+width:500px;
+}
+
+footer.jumbotron {
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    margin-bottom:0;
+border-radius:0;
+padding-bottom:20px;
+  }
+
+.footer {
+text-align: left;
+font: Calibri;
+}
+
+.footer ul {
+padding: 0;
+}
+
+.footer ul li {
+list-style: none;
+padding: 0;
+text-align: left;
+text-decoration: none;
+}
+
+.footer ul li a {
+color:#cccccc;
+
+}
+
+
+.footer h3 {
+font-size:30px;
+font-weight:normal;
+
+}
+
+.footer li a{
+font-size:14px;
+color: #e0e0e0;
+
+}
+
+.newsletter{
+margin:20px 0 10px 0;
+}
+
+.links li{
+display:inline;
+}
+
+ul.links li a{
+padding:0 10px;
+color: #8e8e8e;
+}
+

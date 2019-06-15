@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" ui-sref="home"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item-active">
+        <a class="nav-link" ui-sref="home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" ui-sref="aboutus">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" ui-sref="products">Products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer">
+          MoreDetails
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" ui-sref="subscribe">Subscribe</a>
+          <a class="dropdown-item" ui-sref="feedback">Feedback</a>
+          
+          
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
